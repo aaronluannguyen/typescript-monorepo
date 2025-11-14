@@ -1,0 +1,23 @@
+{
+  "name": "@repo/users",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./service": "./src/service.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@repo/db": "workspace:*",
+    "effect": "^3.10.0",
+    "drizzle-orm": "^0.36.4"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.12",
+    "typescript": "^5.6.3"
+  }
+}

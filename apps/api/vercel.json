@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "typescript-monorepo-api",
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@vercel/bun"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/index.ts"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@database_url"
+  }
+}
