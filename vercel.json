@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "cd apps/api && bun install && bun run build",
+  "outputDirectory": "apps/api/dist",
+  "installCommand": "bun install",
+  "framework": null,
+  "regions": ["iad1"],
+  "functions": {
+    "apps/api/dist/index.js": {
+      "runtime": "bun@1.1.38",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/apps/api/dist/index.js"
+    }
+  ]
+}
