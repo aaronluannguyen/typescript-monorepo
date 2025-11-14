@@ -12,6 +12,7 @@ Welcome to the TypeScript Monorepo documentation. This directory contains compre
 - [Feature Deployment Guide](./FEATURE_DEPLOYMENT.md) - Complete workflow for deploying features with schema changes
 - [Planetscale Workflow](./PLANETSCALE_WORKFLOW.md) - Database branching and management
 - [CI/CD Setup](./CICD_SETUP.md) - Continuous integration and deployment configuration
+- [GitHub Actions Workflow](./GITHUB_ACTIONS_WORKFLOW.md) - Instructions for adding the GitHub Actions workflow file
 
 ---
 
@@ -32,7 +33,8 @@ Welcome to the TypeScript Monorepo documentation. This directory contains compre
 
 **Setting Up Infrastructure:**
 1. [CICD_SETUP.md](./CICD_SETUP.md) - Configure GitHub Actions and Vercel
-2. [PLANETSCALE_WORKFLOW.md](./PLANETSCALE_WORKFLOW.md) - Set up database branching
+2. [GITHUB_ACTIONS_WORKFLOW.md](./GITHUB_ACTIONS_WORKFLOW.md) - Add GitHub Actions workflow file
+3. [PLANETSCALE_WORKFLOW.md](./PLANETSCALE_WORKFLOW.md) - Set up database branching
 
 **Deployment Process:**
 1. [FEATURE_DEPLOYMENT.md](./FEATURE_DEPLOYMENT.md) - Complete deployment workflow
